@@ -1,0 +1,270 @@
+#trend-wrapper {
+    border: 1px solid black;
+    padding-left: 18px;
+    width: 490px;
+}
+
+#trend-wrapper.light {
+    background-color: #fff;
+}
+
+#trend-wrapper.dark {
+    background-color: #031e63;
+}
+
+.trend {
+    padding: 20px 170px 0 15px;
+}
+
+
+#revolition {
+    padding: 20px 16px 20px 15px;
+    max-width: 373px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#revolition.light {
+    background-color: #F7F9F9;
+}
+
+#revolition.dark {
+    background-color: #727474;
+}
+
+#revolition__heading {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#revolition__heading.light{
+    color: black;
+}
+
+#revolition__heading.dark{
+    color: #fff;
+}
+
+.revolition__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list__wrapper {
+    text-align: left;
+}
+
+#list__treending-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #393B41;
+    opacity: 0.6;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+#list__treending-text.light {
+    color: #393B41;
+}
+
+#list__treending-text.dark {
+    color: #1DA1F2;
+}
+
+#list__heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+#list__heading.light {
+    color: black;
+}
+
+#list__heading.dark {
+    color: #fff;
+}
+
+#list__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    opacity: 0.6;
+    margin: 0;
+}
+
+#list__text.light {
+    color: #393B41;  
+}
+
+#list__text.dark {
+    color: #1DA1F2;
+}
+
+#show-more {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+#show-more.light {
+    color: #1DA1F2;
+}
+
+#show-more.dark {
+    color: black;
+}
+
+#might {
+    background-color: #F7F9F9;
+    padding: 20px 16px 30px 15px;
+    max-width: 373px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#might.light {
+    background-color: #F7F9F9;
+}
+
+#might.dark {
+    background-color: #727474;
+}
+
+#might__heading {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#might__heading.light {
+    color: black;
+}
+
+#might__heading.dark {
+    color: #fff;
+}
+
+.might__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.might__list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.might__list-img {
+    margin-right: 13px;
+}
+
+.might__list-wrapper {
+    text-align: left;
+    margin-right: 15px;
+}
+
+#might__list-heading {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 1px;
+}
+
+#might__list-heading.light {
+    color: black;
+}
+
+#might__list-heading.dark {
+    color: #fff;
+}
+
+#might__list-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+#might__list-text.light {
+    color: black;
+}
+
+#might__list-text.dark {
+    color: #fff;
+}
+
+
+#might__list-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 15px 18px;
+    border-radius: 20px;
+}
+
+.link__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.link__list-item + .link__list-item {
+    margin-left: 15px;
+}
+
+#link__list-link {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #536471;
+}
+
+#link__list-link.light {
+    color: #536471;
+}
+
+#link__list-link.dark {
+    color: #fff;
+}

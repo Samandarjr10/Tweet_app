@@ -1,0 +1,152 @@
+main {
+    background-color: blanchedalmond;
+}
+
+#wrapper {
+    width: 320px;
+    padding: 31px 50px 31px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#wrapper.light {
+    background-color: #fff;
+}
+
+#wrapper.dark {
+    background-color: #031e63;
+}
+
+.twitter {
+    margin-bottom: 51px;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+}
+
+.list__item + .list__item {
+    margin-top: 34px;
+}
+
+.list__item-image {
+    margin-right: 21px;
+}
+
+#list__item-link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+#list__item-link.light {
+    color: #000;
+
+    &:hover{
+        color: blue;
+    }
+}
+
+#list__item-link.dark {
+    color: #fff;
+
+    &:hover{
+        color: black;
+    }
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#btn.light {
+    background-color: #1DA1F2;
+    color: #fff;
+
+    &:hover{
+        color: black;
+        background-color: #1da0f294;
+    }
+}
+
+#btn.dark {
+    background-color: #fff;
+    color: black;
+    
+    &:hover{
+        color: black;
+        background-color: #00fff2;
+    }
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.wrap__img {
+    margin-right: 10px;
+}
+
+.wrap__inner{
+    margin-right: 42px;
+}
+
+#wrap__heading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0;
+}
+
+#wrap__heading.light {
+    color: black;
+}
+
+#wrap__heading.dark {
+    color: #fff;
+}
+
+#wrap__text {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin: 0;
+    text-decoration: none;
+}
+
+#wrap__text.light {
+    color: black;
+}
+
+#wrap__text.dark {
+    color: #fff;
+}
+
