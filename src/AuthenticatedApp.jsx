@@ -12,6 +12,7 @@ function AuthenticatedApp() {
      <div className="container">
         <div className="d-flex align-items-start">
             <Bar/>
+            
             <Routes>
                 <Route path="" element={<Main/>}/>
                 <Route path="profill/:id" element={<Profill/>}/>

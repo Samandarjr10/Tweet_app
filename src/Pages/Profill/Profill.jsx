@@ -34,7 +34,8 @@ function Profill() {
                 </h3>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, nobis doloribus odio laborum nulla temporibus earum eius eveniet repudiandae natus porro aperiam rerum maxime mollitia illum soluta ut nihil voluptatum blanditiis veritatis. Dolorum pariatur dolores inventore nam debitis aliquam facere natus laboriosam, vitae explicabo? Numquam, sint quos odit alias, modi accusantium iusto a cupiditate eligendi expedita illo minima at repellat dolorem repellendus ea quidem hic, magnam ipsum consectetur! Obcaecati, praesentium!
-                </p>      
+                </p> 
+				<button className='btn btn-danger'>Log Out</button>     
 			</div>
 		);
 	}
